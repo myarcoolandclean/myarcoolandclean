@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FiMenu, FiX, FiChevronDown } from 'react-icons/fi';
-import clsx from 'clsx';
 
 const navLinks = [
   { label: 'Home', href: '/' },
@@ -12,9 +11,9 @@ const navLinks = [
     label: 'Services',
     href: '/services',
     children: [
+      { label: 'Cleaning Services', href: '/services/cleaning' },
       { label: 'AC Repair & Installation', href: '/services/ac-repair' },
       { label: 'Appliance Repair', href: '/services/appliance-repair' },
-      { label: 'Cleaning Services', href: '/services/cleaning' },
     ],
   },
   { label: 'Contact', href: '/contact' },
@@ -33,12 +32,11 @@ export default function Header() {
 
   return (
     <header
-      className={clsx(
-        'sticky top-0 z-50 w-full transition-all duration-300',
+      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
         scrolled
           ? 'bg-white shadow-sm border-b border-primary-200 bg-white/30 backdrop-blur-md'
           : 'bg-white border-b border-primary-100'
-      )}
+      }`}
     >
       <div className="container-lg flex items-center justify-between h-16 md:h-20">
         <Link href="/" className="flex-shrink-0">
@@ -70,12 +68,11 @@ export default function Header() {
 
               {link.children && (
                 <div
-                  className={clsx(
-                    'absolute top-full left-0 w-52 bg-white shadow-md border-t-2 border-accent py-1 transition-all duration-200',
+                  className={`absolute top-full left-0 w-52 bg-white shadow-md border-t-2 border-accent py-1 transition-all duration-200 ${
                     activeDropdown === link.label
                       ? 'opacity-100 visible translate-y-0'
                       : 'opacity-0 invisible -translate-y-2'
-                  )}
+                  }`}
                 >
                   {link.children.map((child) => (
                     <Link
@@ -104,10 +101,9 @@ export default function Header() {
       </div>
 
       <div
-        className={clsx(
-          'lg:hidden border-t border-gray-100 bg-white overflow-hidden transition-all duration-300',
+        className={`lg:hidden border-t border-gray-100 bg-white overflow-hidden transition-all duration-300 ${
           mobileOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
-        )}
+        }`}
       >
         <nav className="container-lg py-4 flex flex-col gap-1">
           {navLinks.map((link) => (

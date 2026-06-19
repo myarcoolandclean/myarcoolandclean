@@ -5,9 +5,9 @@ import { FiMapPin, FiMail, FiPhone } from 'react-icons/fi';
 
 const footerLinks = {
   Services: [
+    { label: 'Cleaning Services', href: '/services/cleaning' },
     { label: 'AC Repair & Installation', href: '/services/ac-repair' },
     { label: 'Appliance Repair', href: '/services/appliance-repair' },
-    { label: 'Cleaning Services', href: '/services/cleaning' },
   ],
   'Quick Links': [
     { label: 'About Us', href: '/about' },

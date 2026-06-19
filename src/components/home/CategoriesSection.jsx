@@ -2,20 +2,20 @@ import Link from 'next/link';
 
 const services = [
   {
+    title: 'Cleaning Services',
+    description: 'Deep carpet cleaning, sofa upholstery cleaning, and professional home cleaning with eco-friendly methods.',
+    href: '/services/cleaning',
+    popular: true,
+  },
+  {
     title: 'AC Repair & Installation',
     description: 'Professional AC repair, maintenance, and installation for all brands. Emergency service available 24/7.',
     href: '/services/ac-repair',
-    popular: true,
   },
   {
     title: 'Appliance Repair',
     description: 'Expert repair for washing machines, refrigerators, and all home appliances. Same-day service.',
     href: '/services/appliance-repair',
-  },
-  {
-    title: 'Cleaning Services',
-    description: 'Deep carpet cleaning, sofa upholstery cleaning, and professional home cleaning with eco-friendly methods.',
-    href: '/services/cleaning',
   },
 ];
 

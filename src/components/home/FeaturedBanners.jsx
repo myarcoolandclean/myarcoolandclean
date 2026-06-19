@@ -2,8 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const banners = [
-  { eyebrow: 'Emergency Service', title: 'AC Repair & Installation', href: '/services/ac-repair', image: '/acservices.png', bg: 'bg-slate-100' },
   { eyebrow: 'Featured Service', title: 'Deep Cleaning Service', href: '/services/cleaning', image: '/cleaning.png', bg: 'bg-primary-900', dark: true },
+  { eyebrow: 'Emergency Service', title: 'AC Repair & Installation', href: '/services/ac-repair', image: '/acservices.png', bg: 'bg-slate-100' },
 ];
 
 export default function FeaturedBanners() {

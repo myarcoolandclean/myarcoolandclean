@@ -7,6 +7,13 @@ export const metadata = {
 
 const services = [
   {
+    title: 'Cleaning Services',
+    description: 'Professional deep cleaning services for carpets, sofas, upholstery, and homes. Using eco-friendly cleaning methods and modern equipment, we deliver spotless results that exceed expectations.',
+    href: '/services/cleaning',
+    features: ['Carpet Deep Cleaning', 'Sofa & Upholstery Cleaning', 'Home Deep Cleaning', 'Office Cleaning', 'Stain Removal', 'Eco-Friendly Methods'],
+    image: '/acservices.png',
+  },
+  {
     title: 'AC Repair & Installation',
     description: 'Complete air conditioning solutions including repair, maintenance, installation, and gas refill for all brands. Our expert technicians handle split ACs, window units, central AC systems, and ducted cooling with precision and care.',
     href: '/services/ac-repair',
@@ -19,13 +26,6 @@ const services = [
     href: '/services/appliance-repair',
     features: ['Washing Machine Repair', 'Refrigerator Service', 'Deep Freezer Repair', 'Dishwasher Repair', 'Microwave Oven Repair', 'Water Dispenser Repair'],
     image: '/cleaning.png',
-  },
-  {
-    title: 'Cleaning Services',
-    description: 'Professional deep cleaning services for carpets, sofas, upholstery, and homes. Using eco-friendly cleaning methods and modern equipment, we deliver spotless results that exceed expectations.',
-    href: '/services/cleaning',
-    features: ['Carpet Deep Cleaning', 'Sofa & Upholstery Cleaning', 'Home Deep Cleaning', 'Office Cleaning', 'Stain Removal', 'Eco-Friendly Methods'],
-    image: '/acservices.png',
   },
 ];
 

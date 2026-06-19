@@ -2,6 +2,11 @@ import Link from 'next/link';
 
 const services = [
   {
+    title: 'Professional Cleaning',
+    description: 'Deep carpet, sofa, and home cleaning with eco-friendly methods. Upholstery care and stain removal.',
+    href: '/services/cleaning',
+  },
+  {
     title: 'AC Repair & Maintenance',
     description: 'Complete AC repair solutions for all brands with emergency support. Gas refill, compressor repair, and routine maintenance.',
     href: '/services/ac-repair',
@@ -10,11 +15,6 @@ const services = [
     title: 'Appliance Repair Services',
     description: 'Washing machine, refrigerator, and other home appliance repairs. Expert diagnostics and reliable fixes.',
     href: '/services/appliance-repair',
-  },
-  {
-    title: 'Professional Cleaning',
-    description: 'Deep carpet, sofa, and home cleaning with eco-friendly methods. Upholstery care and stain removal.',
-    href: '/services/cleaning',
   },
 ];
 

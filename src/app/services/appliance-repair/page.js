@@ -87,6 +87,67 @@ export default function ApplianceRepairPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-white border-t border-primary-200">
+        <div className="container-lg">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <p className="section-eyebrow justify-center">Get a Quote</p>
+            <h2 className="font-heading text-4xl font-bold text-primary-900 mb-4">Inquiry & Request Quote</h2>
+            <p className="text-primary-600">Tell us about your appliance issue and we'll provide a free quote.</p>
+          </div>
+          <form
+            action="mailto:myarcoolandclean@gmail.com"
+            method="POST"
+            encType="text/plain"
+            className="max-w-2xl mx-auto space-y-5"
+          >
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required
+                className="w-full px-4 py-3 border border-primary-200 bg-white text-sm text-primary-900 outline-none focus:border-accent transition-colors"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                required
+                className="w-full px-4 py-3 border border-primary-200 bg-white text-sm text-primary-900 outline-none focus:border-accent transition-colors"
+              />
+            </div>
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              className="w-full px-4 py-3 border border-primary-200 bg-white text-sm text-primary-900 outline-none focus:border-accent transition-colors"
+            />
+            <textarea
+              name="message"
+              rows={4}
+              placeholder="Describe your appliance repair needs..."
+              required
+              className="w-full px-4 py-3 border border-primary-200 bg-white text-sm text-primary-900 outline-none focus:border-accent transition-colors resize-none"
+            />
+            <button type="submit" className="btn-primary w-full justify-center text-base py-4">Request Quote</button>
+          </form>
+          <div className="max-w-2xl mx-auto mt-8 text-center">
+            <p className="text-sm text-primary-500 mb-4">Or reach us directly:</p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <a href="https://wa.me/923056687553" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white font-semibold text-sm hover:bg-[#128C7E] transition-colors">
+                WhatsApp Inquiry
+              </a>
+              <a href="tel:+923056687553" className="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary-800 text-primary-800 font-semibold text-sm hover:bg-primary-800 hover:text-white transition-colors">
+                Call +92 305 6687553
+              </a>
+              <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white font-semibold text-sm hover:bg-accent-dark transition-colors">
+                Contact Form
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-slate-50">
         <div className="container-lg text-center">
           <h2 className="font-heading text-3xl font-bold text-primary-900 mb-4">Book a Service Today</h2>

@@ -34,9 +34,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-primary-900 mb-1">Phone</p>
-                    <a href="tel:+923056687553" className="text-primary-600 hover:text-accent transition-colors">+92 305 6687553</a>
-                    <br />
-                    <a href="tel:+923347787554" className="text-primary-600 hover:text-accent transition-colors">+92 334 7787554</a>
+                    <a href="tel:+923347787553" className="text-primary-600 hover:text-accent transition-colors">+92 334 7787554</a>
                   </div>
                 </div>
 
@@ -68,7 +66,7 @@ export default function ContactPage() {
                 <p className="text-primary-600 text-sm mb-4">
                   For urgent AC repairs or appliance emergencies, call us anytime.
                 </p>
-                <a href="tel:+923056687553" className="btn-primary text-sm">
+                <a href="tel:+923347787553" className="btn-primary text-sm">
                   Call Emergency Line
                 </a>
               </div>

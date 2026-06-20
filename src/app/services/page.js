@@ -79,7 +79,7 @@ export default function ServicesPage() {
           </p>
           <div className="flex gap-4 justify-center">
             <Link href="/contact" className="btn-primary">Contact Us</Link>
-            <a href="tel:+923056687553" className="btn-outline">Call Now</a>
+            <a href="tel:+923347787553" className="btn-outline">Call Now</a>
           </div>
         </div>
       </section>

@@ -68,8 +68,8 @@ export default function ACRepairPage() {
                   We provide 24/7 emergency AC repair services. Call us now for immediate assistance.
                 </p>
                 <div className="flex gap-4">
-                  <a href="tel:+923056687553" className="bg-white text-accent font-semibold px-6 py-3 text-sm hover:bg-white/90 transition-colors">
-                    Call +92 305 6687553
+                  <a href="tel:+923347787553" className="bg-white text-accent font-semibold px-6 py-3 text-sm hover:bg-white/90 transition-colors">
+                    Call 0334 7787 553
                   </a>
                   <Link href="/contact" className="border border-white text-white font-semibold px-6 py-3 text-sm hover:bg-white/10 transition-colors">
                     Send Message

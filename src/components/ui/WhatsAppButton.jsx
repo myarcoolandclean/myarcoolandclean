@@ -2,7 +2,7 @@
 import { FaWhatsapp } from 'react-icons/fa';
 
 export default function WhatsAppButton() {
-  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '923056687553';
+  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '923347787553';
   return (
     <a
       href={`https://wa.me/${number}?text=Hi%2C%20I%20would%20like%20to%20inquire%20about%20your%20home%20maintenance%20services.`}

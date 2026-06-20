@@ -2,7 +2,7 @@
 import { FiPhone } from 'react-icons/fi';
 
 export default function CallButton() {
-  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '923056687553';
+  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '923347787553';
   return (
     <a
       href={`tel:${number}`}

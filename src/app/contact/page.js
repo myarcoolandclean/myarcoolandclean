@@ -3,6 +3,9 @@ import { FiPhone, FiMail, FiMapPin } from 'react-icons/fi';
 export const metadata = {
   title: 'Contact Us',
   description: 'Get in touch with M Yar Cool and Clean. Contact us for service requests, quotes, and emergency repairs. Available 24/7.',
+  alternates: {
+    canonical: 'https://www.myarcoolandclean.com/contact',
+  },
 };
 
 export default function ContactPage() {
@@ -34,7 +37,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-primary-900 mb-1">Phone</p>
-                    <a href="tel:+923347787553" className="text-primary-600 hover:text-accent transition-colors">+92 334 7787554</a>
+                    <a href="tel:+923347787553" className="text-primary-600 hover:text-accent transition-colors">0334 7787 553</a>
                   </div>
                 </div>
 

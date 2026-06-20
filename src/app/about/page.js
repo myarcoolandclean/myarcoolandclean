@@ -1,6 +1,9 @@
 export const metadata = {
   title: 'About Us',
   description: 'Learn about M Yar Cool and Clean — your trusted partner for professional home maintenance and repair services in Pakistan.',
+  alternates: {
+    canonical: 'https://www.myarcoolandclean.com/about',
+  },
 };
 
 export default function AboutPage() {

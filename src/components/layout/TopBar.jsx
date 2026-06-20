@@ -14,7 +14,7 @@ export default function TopBar() {
           className="flex items-center gap-1.5 text-white font-semibold hover:text-accent transition-colors duration-200"
         >
           <FiPhone size={13} />
-          Call Now: +92 334 7787554
+          Call Now: 0334 7787 553
         </a>
       </div>
     </div>

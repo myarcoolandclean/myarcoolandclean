@@ -10,6 +10,9 @@ export const metadata = {
   title: 'Home Maintenance & AC Repair Services Pakistan',
   description:
     'M Yar Cool & Clean provides professional home maintenance and AC repair services across Pakistan. Expert technicians, same-day service, 24/7 emergency support.',
+  alternates: {
+    canonical: 'https://www.myarcoolandclean.com',
+  },
 };
 
 export default function HomePage() {

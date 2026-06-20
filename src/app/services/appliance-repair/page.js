@@ -3,6 +3,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Appliance Repair Services',
   description: 'Professional appliance repair services for washing machines, refrigerators, and more. Expert technicians, same-day service, all brands supported.',
+  alternates: {
+    canonical: 'https://www.myarcoolandclean.com/services/appliance-repair',
+  },
 };
 
 export default function ApplianceRepairPage() {

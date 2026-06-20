@@ -3,6 +3,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Our Services',
   description: 'Professional home maintenance and repair services including AC repair, appliance repair, and cleaning services. Same-day service available.',
+  alternates: {
+    canonical: 'https://www.myarcoolandclean.com/services',
+  },
 };
 
 const services = [

@@ -3,6 +3,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'AC Repair & Installation Services',
   description: 'Professional AC repair, maintenance, and installation services in Pakistan. Expert technicians, same-day service, 24/7 emergency support for all AC brands.',
+  alternates: {
+    canonical: 'https://www.myarcoolandclean.com/services/ac-repair',
+  },
 };
 
 export default function ACRepairPage() {

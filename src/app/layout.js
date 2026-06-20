@@ -20,6 +20,9 @@ export const metadata = {
   },
   description:
     'Professional home maintenance and repair services in Pakistan. AC repair, appliance repair, and cleaning services. Same-day service, expert technicians.',
+  alternates: {
+    canonical: 'https://www.myarcoolandclean.com',
+  },
 };
 
 export const viewport = {

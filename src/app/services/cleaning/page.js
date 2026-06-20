@@ -3,6 +3,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Cleaning Services',
   description: 'Professional cleaning services including carpet deep cleaning, sofa upholstery cleaning, and home cleaning. Eco-friendly methods, thorough results.',
+  alternates: {
+    canonical: 'https://www.myarcoolandclean.com/services/cleaning',
+  },
 };
 
 export default function CleaningPage() {

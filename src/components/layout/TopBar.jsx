@@ -1,13 +1,5 @@
 'use client';
-import Link from 'next/link';
-import { FaInstagram, FaFacebookF, FaTwitter, FaYoutube } from 'react-icons/fa';
-
-const socials = [
-  { icon: FaInstagram, href: '#', label: 'Instagram' },
-  { icon: FaFacebookF, href: '#', label: 'Facebook' },
-  { icon: FaTwitter, href: '#', label: 'Twitter' },
-  { icon: FaYoutube, href: '#', label: 'YouTube' },
-];
+import { FiPhone } from 'react-icons/fi';
 
 export default function TopBar() {
   return (
@@ -17,13 +9,13 @@ export default function TopBar() {
           <span className="text-accent font-semibold">•</span>{' '}
           24/7 Emergency Support · Fast Same-Day Service
         </p>
-        <div className="flex items-center gap-5">
-          {socials.map(({ icon: Icon, href, label }) => (
-            <Link key={label} href={href} aria-label={label} className="text-white/60 hover:text-accent transition-colors duration-200">
-              <Icon size={13} />
-            </Link>
-          ))}
-        </div>
+        <a
+          href="tel:923347787553"
+          className="flex items-center gap-1.5 text-white font-semibold hover:text-accent transition-colors duration-200"
+        >
+          <FiPhone size={13} />
+          Call Now: +92 334 7787554
+        </a>
       </div>
     </div>
   );

@@ -134,11 +134,11 @@ export default function ApplianceRepairPage() {
           <div className="max-w-2xl mx-auto mt-8 text-center">
             <p className="text-sm text-primary-500 mb-4">Or reach us directly:</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="https://wa.me/923056687553" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white font-semibold text-sm hover:bg-[#128C7E] transition-colors">
+              <a href="https://wa.me/+923347787553" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white font-semibold text-sm hover:bg-[#128C7E] transition-colors">
                 WhatsApp Inquiry
               </a>
-              <a href="tel:+923056687553" className="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary-800 text-primary-800 font-semibold text-sm hover:bg-primary-800 hover:text-white transition-colors">
-                Call +92 305 6687553
+              <a href="tel:+923347787553" className="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary-800 text-primary-800 font-semibold text-sm hover:bg-primary-800 hover:text-white transition-colors">
+                Call 0334 7787 553
               </a>
               <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white font-semibold text-sm hover:bg-accent-dark transition-colors">
                 Contact Form

@@ -16,10 +16,8 @@ const footerLinks = {
 };
 
 const socials = [
-  { icon: FaFacebookF, href: '#', label: 'Facebook' },
-  { icon: FaInstagram, href: '#', label: 'Instagram' },
-  { icon: FaTwitter, href: '#', label: 'Twitter' },
-  { icon: FaYoutube, href: '#', label: 'YouTube' },
+  { icon: FaFacebookF, href: 'https://web.facebook.com/profile.php?id=61591625724186', label: 'Facebook' },
+  
 ];
 
 export default function Footer() {
